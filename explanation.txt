@@ -1,0 +1,44 @@
+  _____ _ _           
+|  ___(_) | ___  ___ 
+| |_  | | |/ _ \/ __|
+|  _| | | |  __/\__ \
+|_|   |_|_|\___||___/
+
+    - download.txt      :   Links to be downloaded          ( MUST BE FILLED !! )
+    - explanation.txt   :   This file.
+    - links.txt         :   Report of transcript analysis   ( GENERATED )
+    - local_videos.txt  :   Keywords tags for local videos  ( MUST BE FILLED !! )
+    - merge.txt         :   Video input/main_video/output   ( MUST BE FILLED !! )
+    - shorts.txt        :   Video Clips to extract or Short ( MUST BE FILLED !! )
+    - speech.txt        :   Audio Clips to extract          ( MUST BE FILLED !! )
+    
+ _____     _     _               
+|  ___|__ | | __| | ___ _ __ ___ 
+| |_ / _ \| |/ _` |/ _ \ '__/ __|
+|  _| (_) | | (_| |  __/ |  \__ \
+|_|  \___/|_|\__,_|\___|_|  |___/
+
+    - AUDIO             :   Audio files mentioned at SPEECH.TXT are extracted, 
+                            merged into one file and stored here, under the name of SPEECH.mp3
+    - DOWNLOADS         :   Media mentioned at DOWNLOADS.TXT are downloaded, and stored here.
+    - LOCALLIBRARY      :   All private videos, with appropriate keywords defined in LOCAL_VIDEOS.TXT
+    - SHORTS            :   Video files mentioned at SHORTS.TXT are extracted, cropped and stored here.
+    - TEMP              :   Temporary folder for usual usage.
+    - TRANSCRIPT        :   Contains TRANSCRIPT.TXT, that is generated from Adobe Premiere Pro
+                            manually, and Automatic Subtitles file.
+    - VIDEOS            :   Must Contain videos to be extracted, shortified or merged.
+               _       _
+ ___  ___ _ __(_)_ __ | |_ ___ 
+/ __|/ __| '__| | '_ \| __/ __|
+\__ \ (__| |  | | |_) | |_\__ \
+|___/\___|_|  |_| .__/ \__|___/
+                |_|
+
+    - autotube.py       :   Main
+    - edit.py           :   Generate videos based on text, result at ../transcript/links.txt
+    - extract.py        :   Extract Audio Clips and concatenate them, result at ../audio/speech.mp3
+    - shortify.py       :   Extract Clips ( Split Files )
+                            Extract Clips ( Merged Files )
+                            Extract Clips + Crop it 9:16 ( Split Files )
+    - transcribe.py     :   Automatic Mouse Control to create project for transcription.
+    - upload.py         :   Move Shorts or Long videos to Google Drive Folders to be synschronized.
