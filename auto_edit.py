@@ -21,7 +21,7 @@ import openai
 PEXELS_API_KEY = 'pexels_api_key'
 openai.api_key = 'openai_api_key'
 
-desktop_path = "/Users/youssef/Desktop/"
+desktop_path = "your_desktop_path_here"
 project_folder = desktop_path + "/AutoTube/"
 local_videos_file = project_folder+"local_videos.txt"
 local_library_folder = project_folder+"locallibrary/"
