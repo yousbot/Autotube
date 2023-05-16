@@ -18,7 +18,7 @@ desktop_path = "your_desktop_path_here"
 project_folder = desktop_path + "/AutoTube/"
 competition_file = project_folder+"competition.txt"
 keywords_file = project_folder+"keywords.txt"
-API_KEY = "your_google-API"
+API_KEY = "your_google-api"
 audio_folder = project_folder+'audio/'
 downloaded_videos = project_folder+'downloaded_videos.txt'
 
